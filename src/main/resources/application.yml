@@ -1,0 +1,15 @@
+fdfs:
+  so-timeout: 600000
+  connectTimeout: 600
+  thumbImage:             #缩略图生成参数
+    width: 150
+    height: 150
+  pool:
+    jmx-enabled: false
+    max-total: 200
+    max-wait-millis: 30000
+  trackerList:            #TrackerList参数,支持多个
+    - 47.100.116.208:22122   # 107.182.180.143:22122
+  visit:
+    url: http://47.100.116.208  #47.100.116.208
+    port: 8888
