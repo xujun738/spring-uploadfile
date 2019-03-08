@@ -9,7 +9,7 @@ fdfs:
     max-total: 200
     max-wait-millis: 30000
   trackerList:            #TrackerList参数,支持多个
-    - 47.100.116.208:22122   # 107.182.180.143:22122
+    - 自己ip:22122   
   visit:
-    url: http://47.100.116.208  #47.100.116.208
+    url: http://自己ip  
     port: 8888
